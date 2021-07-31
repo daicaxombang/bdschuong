@@ -40,7 +40,7 @@
     
     Router::connect('/trang-chu', array('controller' => 'Home', 'action' => 'index'));
     Router::connect('/err-page', array('controller' => 'Errpage', 'action' => 'thongbao'));
-    Router::connect('/lien-he', array('controller' => 'Product', 'action' => 'lienhe', 6));
+    Router::connect('/lien-he', array('controller' => 'Product', 'action' => 'lienhe', 7));
     Router::connect('/dat-hang', array('controller' => 'Contact', 'action' => 'dathang'));
     Router::connect('/contact/*', array('controller' => 'Contact', 'action' => 'send'));
     Router::connect('/dang-ky-ung-tuyen', array('controller' => 'Contact', 'action' => 'dangkyungvien'));

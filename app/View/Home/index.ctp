@@ -1,13 +1,15 @@
+<?php if(!empty($tinmoi['Post']['id'])){?>
 <div class="new-line">
     <ul>
         <li>Tin mới:</li>
         <li id="change-post">
-            <a href="" title="">
-                Phong thuỷ nhà hướng Tây Nam và căn biệt thự của tỷ phú Bill Gates
+            <a href="<?php echo DOMAIN.$tinmoi['Post']['link'];?>.html" title="<?php echo $tinmoi['Post']['name'];?>">
+                <?php echo $tinmoi['Post']['name'];?>
             </a>
         </li>
     </ul>
 </div>
+<?php }?>
 
 <section class="awe-section-3">
     <div class="section_product_best_sell">

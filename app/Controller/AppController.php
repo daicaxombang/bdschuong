@@ -82,6 +82,14 @@ class AppController extends Controller
         ));
         $this->set('list_post_right', $list_post_right);
 
+        $tinmoi = $this->Post->find('first', array(
+            'conditions' => array(
+                'Post.status' => 1,
+            ),
+            'order' => array('Post.id' => 'DESC'),
+        ));
+        $this->set('tinmoi', $tinmoi);
+
         //load sp xem nhieu
 //        $this->loadModel('Product');
 //        $list_spxemnhieu = $this->Product->find('all', array(
@@ -282,7 +290,7 @@ class AppController extends Controller
                     'Catproduct.parent_id' => $parentid,
                     'Catproduct.status' => 1,
                     'Catproduct.dang1' => 0,
-                    'Catproduct.id <>' => 7,
+//                    'Catproduct.id <>' => 7,
 //                'Catproduct.type' => array('new', ''),
                 ),
                 'order' => 'Catproduct.order ASC'

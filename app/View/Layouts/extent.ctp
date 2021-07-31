@@ -91,7 +91,7 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
 <?php echo $this->element('header'); ?>
-<?php echo $this->element('dieuhuong');?>
+<?php //echo $this->element('dieuhuong');?>
 
 <div class="b-content">
     <div class="main-width">

@@ -74,7 +74,7 @@ class ProductController extends AppController {
             $listnews = $this->paginate($table,array());
             if(count($listnews) == 1) $this->redirect(DOMAIN.$listnews[0][$table]['link'].'.htm');
 
-            $this->layout = 'news';
+            //$this->layout = 'news';
     	    $this->set('listnews', $listnews);            
             $this->render('/Post/listnews');
         }
@@ -140,14 +140,14 @@ class ProductController extends AppController {
                 'Product.name LIKE' => '%'.$tukhoa.'%',
                 'Product.code LIKE' => '%'.$tukhoa.'%'
             );*/
-            $cnn['Product.name LIKE'] = '%'.$tukhoa.'%';
+            $cnn['Post.name LIKE'] = '%'.$tukhoa.'%';
         }
         
-        $cnn['Product.status'] = 1;
+        $cnn['Post.status'] = 1;
         //$cnn['Product.type'] = 'newtwo';
         
         $limit  = 20;
-        $table = 'Product';
+        $table = 'Post';
         $this->paginate = array(
             'conditions' => $cnn,
                 'limit' => $limit,
@@ -157,8 +157,8 @@ class ProductController extends AppController {
 	    $this->set('listnews', $this->paginate($table,array()));
         
         $this->set('title_for_layout', 'Tìm kiếm');
-        $this->render('list');
-//        $this->render('/Post/listnews');
+        //$this->render('list');
+        $this->render('/Post/listnews');
     }
     
     public function hang($id = null){
@@ -300,6 +300,7 @@ class ProductController extends AppController {
     }
     
     public function lienhe($id = null){
+        $this->layout = "extent";
         $abc = $this->Catproduct->findById($id);
         $this->set('cat', $abc);
         $this->set('title_for_layout', $abc['Catproduct']['name']);
