@@ -2738,3 +2738,12 @@ Request URL: /adgroup/img/lotus/icons/bullet_black.png
 Stack Trace:
 #0 /Users/duycuong/Documents/Projects/php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2021-07-31 23:22:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Projects/php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

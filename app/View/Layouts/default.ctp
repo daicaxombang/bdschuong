@@ -108,7 +108,7 @@
 
 
 <?php if (isset($trangchu)) if (isset($setting['theh1'])) { ?>
-    <div style="position: absolute; top: -99999px;"><h1><?php echo $setting['theh1']; ?></h1></div>
+    <div style="position: absolute; top: -999999px;"><h1><?php echo $setting['theh1']; ?></h1></div>
 <?php } ?>
 <?php echo $setting['chenthekhac']; ?>
 </body>

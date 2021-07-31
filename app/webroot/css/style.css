@@ -524,7 +524,7 @@ footer.footer .top-info-footer .contact-group .item .detail .link a {
     font-weight: 500;
 }
 footer.footer .site-footer .footer-widget h3 {
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
     line-height: 22px;
     font-weight: 500;
@@ -569,3 +569,4 @@ footer.footer .site-footer .footer-widget .list-menu li a {
 }
 footer.footer input.form-control{float: left; width:66%;}
 footer.footer .input-group{display: inherit;}
+.copyright{background: #084c22; color: #fff; padding: 12px 0 12px 0;}
