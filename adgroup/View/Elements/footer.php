@@ -1,0 +1,1 @@
+<img src="http://multitemplate.com/ic/footer.png" alt="footer" />

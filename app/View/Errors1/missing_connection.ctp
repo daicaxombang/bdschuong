@@ -1,0 +1,1 @@
+<div class="err-page">Không kết nối dc với database</div>

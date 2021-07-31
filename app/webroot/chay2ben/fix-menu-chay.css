@@ -1,0 +1,62 @@
+
+
+#navi {
+
+height: 10px;
+
+
+}
+
+#menu {
+
+
+
+
+
+line-height: 50px;
+
+
+margin: 0 auto;
+
+padding: 0;
+
+}
+
+#menu ul{
+
+    width: 230px;
+
+    text-align: left;
+
+    background: #fff;
+
+    background: #fff;
+
+}
+
+#content {
+
+text-align: left;
+
+}
+
+
+
+.default {
+
+width: 135px;
+
+height: 10px;
+
+}
+
+.fixed {
+
+position: fixed;
+
+top: 5px;
+
+
+
+}
+

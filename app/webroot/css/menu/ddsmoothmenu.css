@@ -1,0 +1,145 @@
+.navhor {
+    width: 100%;
+}
+
+.navhor ul {
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*Top level list items*/
+.navhor ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+.navhor ul li:hover i {
+    color: #fff;
+}
+
+.navhor ul li:last-child, .navhor ul li li {
+
+}
+
+/*Top level menu link items style*/
+.navhor ul li a {
+    display: block;
+    padding: 13px 20px 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.navhor ul li img{margin: 0 0 8px 0;}
+
+.navhor ul li a i {
+    margin: 0 0 0 10px;
+}
+
+.navhor ul li li a {
+    text-transform: none;
+}
+
+.navhor ul li li {
+    text-align: left;
+}
+
+* html .navhor ul li a { /*IE6 hack to get sub menu links to behave correctly*/
+    display: inline-block;
+}
+
+.navhor ul li a:link, .navhor ul li a:visited {
+    color: #fff;
+}
+
+.navhor ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    color: #fd7c2e;
+}
+
+.navhor ul li a:hover {
+    color: #fd7c2e;
+}
+
+.navhor ul li ul li a:link, .navhor ul li ul li a:visited {
+    color: #000;
+}
+
+.navhor ul li ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    color: #18a4dd;
+}
+
+.navhor ul li ul li a:hover {
+    color: #18a4dd;
+}
+
+/*1st sub level menu*/
+.navhor ul li ul {
+    position: absolute;
+    margin-left: -1px;
+    margin-top: 0px;
+    display: none; /*collapse all sub menus to begin with*/
+    visibility: hidden;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.navhor ul li ul li {
+    display: list-item;
+    float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.navhor ul li ul li ul {
+    top: 0px;
+}
+
+/* Sub level menu links style */
+.navhor ul li ul li a {
+    min-width: 180px; /*width of sub menus*/
+    white-space: nowrap;
+    padding: 5px 8px;
+    margin: 0;
+    margin-left: 0px;
+    border-top-width: 0;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    font-size: 14px;
+}
+
+/* Holly Hack for IE \*/
+* html .navhor {
+    height: 1%;
+}
+
+/*Holly Hack for IE7 and below*/
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass {
+    display: none;
+}
+
+.rightarrowclass {
+    display: none;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow { /*shadow for NON CSS3 capable browsers*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: silver;
+}
+
+.toplevelshadow { /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+    opacity: 0.8;
+}

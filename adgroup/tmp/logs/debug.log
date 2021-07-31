@@ -1,0 +1,9 @@
+2019-11-17 09:31:24 Notice: Notice (8): Undefined index: Account in [/home/brictec/domains/brictec.vn/public_html/adgroup/Controller/AccountsController.php, line 183]
+Trace:
+AccountsController::login() - APP/Controller/AccountsController.php, line 183
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+

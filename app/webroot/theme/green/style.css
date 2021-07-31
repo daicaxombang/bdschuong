@@ -1,0 +1,32 @@
+a              { color: #57a000;}
+                
+.button {
+                background: #469400 url('./bg-button.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+
+                }
+
+#sidebar #main-nav li a.nav-top-item {
+                background: transparent url('./bg-menu-item.gif') right center no-repeat;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                }
+
+ul.content-box-tabs li a:hover {
+                color: #57a000;
+                }              
+                
+.pagination a.current {
+                background: #469400 url('./bg-button.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                }
+				
+.action-button span:hover {
+                color: #bb0000;
+                }
+                
+/*--fix for cake--*/
+.pagination span.current {
+                background: #469400 url('./red/bg-button-red.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                }

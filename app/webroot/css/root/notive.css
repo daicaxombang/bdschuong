@@ -1,0 +1,55 @@
+﻿
+#flashMessage.notification {
+    background-position: 10px 11px !important;
+    background-repeat: no-repeat !important;
+    font-size: 13px;
+    margin: 0 0 0px;
+    padding: 0;
+    position: relative;
+    width: 99.8%;
+}
+#flashMessage.attention {
+    background: url("../images/icons/exclamation.png") no-repeat scroll 10px 11px /*#FFFBCC*/;
+    color: #666452;
+}
+#flashMessage.information {
+    background: url("../images/icons/information.png") repeat scroll 0 0 /*#DBE3FF*/;
+    color: #585B66;
+}
+#flashMessage.success {
+    background: url("../images/icons/tick_circle.png") repeat scroll 0 0 /*#D5FFCE*/;
+    color: #556652;
+}
+#flashMessage.error {
+    background: url("../images/icons/cross_circle.png") repeat scroll 0 0 /*#FFCECE*/;
+    color: #665252;
+}
+
+#flashMessage.notification {
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    font-style: normal;
+    line-height: 1.5em;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    margin-bottom: 15px;
+}
+.notification .close {
+    color: #990000;
+    font-size: 9px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.input-notification {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    margin: 0 0 0 5px;
+    padding: 2px 0 2px 22px;
+}
+#login-wrapper #login-content .notification {
+    background-color: #141414;
+    border: 0 none;
+    color: #FFFFFF !important;
+}

@@ -1,0 +1,31 @@
+.png48-add span {
+    background-image: url('../../img/lotus/png48/add.png');
+}
+
+.png48-save span {
+    background-image: url('../../img/lotus/png48/save.png');
+}
+
+.png48-info span {
+    background-image: url('../../img/lotus/png48/info.png');
+}
+
+.png48-cancel span {
+    background-image: url('../../img/lotus/png48/cancel.png');
+}
+
+.png48-exit span {
+    background-image: url('../../img/lotus/png48/exit.png');
+}
+
+.png48-profile span {
+    background-image: url('../../img/lotus/png48/profile.png');
+}
+
+.png48-group span {
+    background-image: url('../../img/lotus/png48/group.png');
+}
+
+.png48-permision span {
+    background-image: url('../../img/lotus/png48/userlock.png');
+}

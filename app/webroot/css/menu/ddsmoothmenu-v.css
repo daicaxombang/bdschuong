@@ -1,0 +1,99 @@
+.ddsmoothmenu-v ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ddsmoothmenu-v ul li {
+    position: relative;
+    margin-top: 0px;
+    list-style: none;
+}
+
+/* Top level menu links style */
+.ddsmoothmenu-v ul li a {
+    display: block;
+    overflow: auto; /*force hasLayout in IE7 */
+    text-decoration: none;
+    padding: 10.5px 10px 10px 50px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    text-transform: uppercase;
+}
+
+.ddsmoothmenu-v ul li:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.b-left-dm label {
+    background: #0079cd;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 0;
+}
+
+.b-post-mntintuc {
+    border: 1px solid #ddd;
+    margin: 2px 0 0 0;
+}
+
+.b-post-mntintuc h4 {
+    padding: 12px 10px 12px 30px;
+    font-size: 13px;
+}
+
+.b-post-mntintuc a {
+    color: #676767;
+}
+
+.ddsmoothmenu-v ul li a:link, .ddsmoothmenu-v ul li a:visited, .ddsmoothmenu-v ul li a:active {
+    color: #676767;
+}
+
+.ddsmoothmenu-v ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    color: #fd7c2e;
+}
+
+.ddsmoothmenu-v ul li a:hover {
+    color: #fd7c2e;
+}
+
+/*Sub level menu items */
+.ddsmoothmenu-v ul li ul {
+    position: absolute;
+    min-width: 220px; /*Sub Menu Items width */
+    white-space: nowrap;
+    margin-top: 0px;
+    margin-left: 2px;
+    font-weight: normal;
+    visibility: hidden;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.ddsmoothmenu-v ul li ul li a {
+    display: block;
+    overflow: auto; /*force hasLayout in IE7 */
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+.ddsmoothmenu-v ul li ul li:last-child a{border-bottom: 0;}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu-v ul li {
+    float: left;
+    height: 1%;
+}
+
+* html .ddsmoothmenu-v ul li a {
+    height: 1%;
+}
+
+/* End */

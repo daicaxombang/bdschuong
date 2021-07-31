@@ -1,0 +1,35 @@
+a              { color: #cb5600; }
+#main-content table thead th {
+                background: #cb5600 url('./bg-button.gif') top left repeat-x !important;
+                color: #fff;
+                }                  
+.button {
+                background: #cb5600 url('./bg-button.png') top left repeat-x !important;
+                border-color: #cb5600 !important;
+
+                }
+
+#sidebar #main-nav li a.nav-top-item {
+                background: transparent url('./bg-menu-item.png') right center no-repeat;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                }
+
+ul.content-box-tabs li a:hover {
+                color: #cb5600;
+                }              
+                
+.pagination a.current {
+                background: #cb5600 url('./bg-button.png') top left repeat-x !important;
+                border-color: #cb5600 !important;
+                }
+				
+.action-button span:hover {
+                color: #cb5600;
+                }
+                
+/*--fix for cake--*/
+.pagination span.current {
+                background: #004a95 url('./red/bg-button-red.gif') top left repeat-x !important;
+                border-color: #004994 !important;
+                }

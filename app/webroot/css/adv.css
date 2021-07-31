@@ -1,0 +1,9 @@
+/**adv-one**/
+.box-adv-one{
+    width: 980px;
+    margin: 5px auto;
+}
+.adv-three-border-top{
+    border-top: 3px solid #860908;
+    padding-top: 8px;
+}

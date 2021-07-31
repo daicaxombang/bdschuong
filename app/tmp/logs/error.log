@@ -1,0 +1,526 @@
+2019-07-30 10:20:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/HomeController.php(22): AppController->beforeFilter()
+#9 [internal function]: HomeController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:20:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /images/lgt.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/ProductController.php(19): AppController->beforeFilter()
+#9 [internal function]: ProductController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ProductController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:20:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /images/lgt.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/ProductController.php(19): AppController->beforeFilter()
+#9 [internal function]: ProductController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ProductController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:23:57 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/HomeController.php(22): AppController->beforeFilter()
+#9 [internal function]: HomeController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:23:57 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /images/lgt.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/ProductController.php(19): AppController->beforeFilter()
+#9 [internal function]: ProductController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ProductController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:23:57 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /images/lgt.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/ProductController.php(19): AppController->beforeFilter()
+#9 [internal function]: ProductController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ProductController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:24:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/HomeController.php(22): AppController->beforeFilter()
+#9 [internal function]: HomeController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:24:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /images/lgt.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/ProductController.php(19): AppController->beforeFilter()
+#9 [internal function]: ProductController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ProductController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-07-30 10:24:08 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /images/lgt.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3195): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(3217): Model->setSource('catproducts')
+#5 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(232): Model->find('all', Array)
+#7 /Applications/MAMP/htdocs/brictec/app/Controller/AppController.php(58): AppController->multiMenu(NULL, NULL)
+#8 /Applications/MAMP/htdocs/brictec/app/Controller/ProductController.php(19): AppController->beforeFilter()
+#9 [internal function]: ProductController->beforeFilter(Object(CakeEvent))
+#10 /Applications/MAMP/htdocs/brictec/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ProductController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-08-01 08:09:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Product.hedieuhanh_id' in 'field list'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Product...', Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Product...', Array, Array)
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Product...', false)
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Product), Array)
+#5 /Applications/MAMP/htdocs/brictec/app/Controller/HomeController.php(68): Model->find('all', Array)
+#6 [internal function]: HomeController->index()
+#7 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-08-01 08:09:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Product.order1' in 'order clause'
+Request URL: /
+Stack Trace:
+#0 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Product...', Array)
+#2 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Product...', Array, Array)
+#3 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Product...', false)
+#4 /Applications/MAMP/htdocs/brictec/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Product), Array)
+#5 /Applications/MAMP/htdocs/brictec/app/Controller/HomeController.php(67): Model->find('all', Array)
+#6 [internal function]: HomeController->index()
+#7 /Applications/MAMP/htdocs/brictec/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/brictec/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/brictec/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-10-15 13:53:06 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 13:53:06 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 13:53:54 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 13:53:54 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 14:10:26 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 14:10:26 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 14:17:19 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 14:17:19 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 14:33:44 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 14:33:44 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 15:30:54 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 15:30:54 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 16:07:18 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 16:07:18 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 16:13:13 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 16:13:13 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 16:15:46 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 16:15:46 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 16:17:49 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 16:17:49 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-15 16:18:53 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-15 16:18:53 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 09:07:29 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 09:07:29 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 09:33:35 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 09:33:35 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 10:03:32 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 10:03:32 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 10:29:30 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 10:29:30 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 13:44:45 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 13:44:45 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 14:47:15 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 14:47:15 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 14:53:01 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 14:53:01 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 14:53:33 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 14:53:33 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 14:54:03 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 14:54:03 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 14:56:12 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 14:56:12 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-16 20:12:18 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-16 20:12:18 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 08:28:12 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 08:28:12 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 08:28:13 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 08:28:13 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:09 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:09 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:09 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:09 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:09 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:09 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:09 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:09 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:09 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:09 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:12 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:12 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:17 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:17 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:19 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:19 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 10:15:20 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 10:15:20 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 11:24:35 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 11:24:35 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-10-17 11:25:25 Error: Fatal Error (64): Cannot use 'String' as class name as it is reserved in [/home/brictec/domains/brictec.vn/public_html/lib/Cake/Utility/String.php, line 26]
+2019-10-17 11:25:25 Error: [FatalErrorException] Cannot use 'String' as class name as it is reserved
+Stack Trace:
+#0 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26)
+#1 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Str...', '/home/brictec/d...', 26, Array)
+#2 /home/brictec/domains/brictec.vn/public_html/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
