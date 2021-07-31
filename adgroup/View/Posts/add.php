@@ -70,8 +70,8 @@
                     <td><?php  echo $this->Form->input('Post.content',array('type'=>'textarea','class'=>'ckeditor'));?></td>
                 </tr>
                 <tr>
-                    <td class="label">Form liên hệ:</td>
-                    <td><?php echo $this->Form->input('Post.choose4',array('type'=>'radio','separator'=> '&nbsp;&nbsp;&nbsp;','options' => array('0'=>'Không có', '1'=>'Có') ));?></td>
+                    <td class="label">Tình trạng dự án:</td>
+                    <td><?php echo $this->Form->input('Post.is_service',array('type'=>'radio','separator'=> '&nbsp;&nbsp;&nbsp;','options' => array('0'=>'Sắp mở bán', '1'=>'Đang phân phối') ));?></td>
                 </tr>
                 <tr>
                     <td class="label">Trạng thái:</td>

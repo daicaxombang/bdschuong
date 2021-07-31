@@ -17,7 +17,7 @@
     <div class="box-like-share">
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <g:plusone></g:plusone> 
-        <div class="fb-like" data-href="<?php echo DOMAIN.$detailNews['Post']['link'];?>.htm" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div>
+        <div class="fb-like" data-href="<?php echo DOMAIN.$detailNews['Post']['link'];?>.html" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div>
     </div><!--end box-like-share-->
 
     <?php if(!empty($tinlq)){?>
@@ -28,7 +28,7 @@
             <?php foreach($tinlq as $value){?>
             <li>
                 <div class="ngaythang"><?php echo date('d-m-Y h:i:s', strtotime($value['Post']['created'])); ?> -&nbsp</div>
-                <a href="<?php echo DOMAIN.$value['Post']['link'];?>.htm" title="<?php echo $value['Post']['name'];?>">
+                <a href="<?php echo DOMAIN.$value['Post']['link'];?>.html" title="<?php echo $value['Post']['name'];?>">
                     <h3> <?php echo $value['Post']['name'];?></h3>
                 </a>
                 <div class="clear-main"></div>
@@ -39,6 +39,6 @@
     </div><!--end bar-new-detail-->
     <?php }?>
 
-    <div class="fb-comments" data-href="<?php echo DOMAIN.$detailNews['Post']['link'];?>.htm" data-width="100%" data-numposts="5"></div>
+    <div class="fb-comments" data-href="<?php echo DOMAIN.$detailNews['Post']['link'];?>.html" data-width="100%" data-numposts="5"></div>
 
 </div>

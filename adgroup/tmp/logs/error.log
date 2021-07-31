@@ -2747,3 +2747,489 @@ Request URL: /adgroup/img/lotus/icons/bullet_black.png
 Stack Trace:
 #0 /Users/duycuong/Documents/Projects/php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2021-07-31 23:46:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:46:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:46:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:46:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:47:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:47:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:47:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:47:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:47:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:48:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:50:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:50:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:56:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-31 23:56:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:15:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:15:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:15:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:17:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:17:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:17:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:20:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:21:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:21:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:21:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:22:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:23:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:23:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:24:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:24:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:25:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:25:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:26:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:26:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:26:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:26:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:29:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:29:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:29:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:40:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:41:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:41:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:42:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:42:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:42:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:42:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-08-01 00:43:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /adgroup/img/lotus/icons/bullet_black.png
+Stack Trace:
+#0 /Users/duycuong/Documents/Develop/Php/duycuong/bdschuong/adgroup/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

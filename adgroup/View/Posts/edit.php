@@ -71,10 +71,6 @@
                     <td><?php  echo $this->Form->input('Post.content',array('type'=>'textarea','class'=>'ckeditor'));?></td>
                 </tr>
                 <tr>
-                    <td class="label">Form liên hệ:</td>
-                    <td><?php echo $this->Form->input('Post.choose4',array('type'=>'radio','separator'=> '&nbsp;&nbsp;&nbsp;','options' => array('0'=>'Không có', '1'=>'Có') ));?></td>
-                </tr>
-                <tr>
                     <td class="label">Trạng thái:</td>
                     <td><?php echo $this->Form->input('Post.status',array('type'=>'radio','separator'=> '&nbsp;&nbsp;&nbsp;','options' => array('0'=>'Chưa Active', '1'=>'Đã Active') ));?></td>
                 </tr>

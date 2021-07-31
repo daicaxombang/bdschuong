@@ -59,30 +59,30 @@
                     <td class="label">Email:</td>
                     <td> <?php echo $this->Form->input('Setting.email', array('class' => 'text-input medium-input')); ?> </td>
                 </tr>
-                <tr>
-                    <td class="label">Hợp tác:</td>
-                    <td> <?php echo $this->Form->input('Setting.email1', array('class' => 'text-input medium-input')); ?> </td>
-                </tr>
-                <tr>
-                    <td class="label">Bộ phận kinh doanh:</td>
-                    <td> <?php echo $this->Form->input('Setting.email2', array('class' => 'text-input medium-input')); ?> </td>
-                </tr>
-                <tr>
-                    <td class="label">Chăm sóc khách hàng:</td>
-                    <td> <?php echo $this->Form->input('Setting.email3', array('class' => 'text-input medium-input')); ?> </td>
-                </tr>
+<!--                <tr>-->
+<!--                    <td class="label">Hợp tác:</td>-->
+<!--                    <td> --><?php //echo $this->Form->input('Setting.email1', array('class' => 'text-input medium-input')); ?><!-- </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="label">Bộ phận kinh doanh:</td>-->
+<!--                    <td> --><?php //echo $this->Form->input('Setting.email2', array('class' => 'text-input medium-input')); ?><!-- </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="label">Chăm sóc khách hàng:</td>-->
+<!--                    <td> --><?php //echo $this->Form->input('Setting.email3', array('class' => 'text-input medium-input')); ?><!-- </td>-->
+<!--                </tr>-->
                 <tr>
                     <td class="label">Hotline:</td>
                     <td> <?php echo $this->Form->input('Setting.hotline', array('class' => 'text-input medium-input')); ?> </td>
                 </tr>
-                <tr>
-                    <td class="label">Khiếu nại, phản hồi:</td>
-                    <td> <?php echo $this->Form->input('Setting.telephone', array('class' => 'text-input medium-input')); ?> </td>
-                </tr>
 <!--                <tr>-->
-<!--                    <td class="label">Slogan:</td>-->
-<!--                    <td> --><?php //echo $this->Form->input('Setting.slogan', array('class' => 'text-input medium-input')); ?><!-- </td>-->
+<!--                    <td class="label">Khiếu nại, phản hồi:</td>-->
+<!--                    <td> --><?php //echo $this->Form->input('Setting.telephone', array('class' => 'text-input medium-input')); ?><!-- </td>-->
 <!--                </tr>-->
+                <tr>
+                    <td class="label">Chat fb link:</td>
+                    <td> <?php echo $this->Form->input('Setting.linkme', array('class' => 'text-input medium-input')); ?> </td>
+                </tr>
                 <tr>
                     <td class="label">Face:</td>
                     <td> <?php echo $this->Form->input('Setting.facebook', array('class' => 'text-input medium-input')); ?> </td>

@@ -1,7 +1,7 @@
 <div class="b-search-right">
     <label>Tìm kiếm các dự án</label>
-    <form method="post" action="<?php echo DOMAIN;?>tim-kiem">
-        <input type="text" name="tukhoa" class="form-control span12" />
+    <form method="post" action="<?php echo DOMAIN; ?>tim-kiem">
+        <input type="text" name="tukhoa" class="form-control span12"/>
         <button type="submit" class="btn btn-danger">Tìm kiếm</button>
     </form>
 </div>
@@ -24,37 +24,35 @@
     <?php } ?>
 </div>
 
-<?php foreach ($listincn as $val) { ?>
-    <div class="aside-item">
-        <h2 class="title-head">
-            <a href="<?php echo DOMAIN . $val['link']; ?>"
-               title="<?php echo $val['name']; ?>"><?php echo $val['name']; ?></a>
-        </h2>
-        <div class="list-blogs">
-            <?php $dem = 0;
-            foreach ($val['list'] as $k => $row) { ?>
-                <article class="blog-item blog-item-list clearfix">
-                    <a href="<?php echo DOMAIN . $row['Post']['link']; ?>.htm"
-                       title="<?php echo $row['Post']['name'] ?>">
-                        <div class="panel-box-media">
-                            <img class="lazy loaded"
-                                 src="<?php echo DOMAIN; ?>img/w357/h265/fill!<?php echo $row['Post']['images'] ?>"
-                                 alt="<?php echo $row['Post']['name'] ?>"
-                                 title="<?php echo $row['Post']['name'] ?>" data-was-processed="true">
+<div class="aside-item">
+    <h2 class="title-head">
+        <a href="#" style="cursor: none;"
+           title="">Thông tin cần biết</a>
+    </h2>
+    <div class="list-blogs">
+        <?php $dem = 0;
+        foreach ($list_post_right as $k => $row) { ?>
+            <article class="blog-item blog-item-list clearfix">
+                <a href="<?php echo DOMAIN . $row['Post']['link']; ?>.html"
+                   title="<?php echo $row['Post']['name'] ?>">
+                    <div class="panel-box-media">
+                        <img class="lazy loaded"
+                             src="<?php echo DOMAIN; ?>img/w357/h265/fill!<?php echo $row['Post']['images'] ?>"
+                             alt="<?php echo $row['Post']['name'] ?>"
+                             title="<?php echo $row['Post']['name'] ?>" data-was-processed="true">
 
-                        </div>
-                        <div class="blogs-rights">
-                            <h3 class="blog-item-name"><?php echo $row['Post']['name'] ?></h3>
-                        </div>
-                    </a>
-                </article>
-                <?php $dem++;
-                if ($dem == 10) break;
-            } ?>
-        </div>
-        <!--    <div class="blogs-mores text-center"><a href="tin-tuc" title="Xem thêm">Xem thêm</a></div>-->
+                    </div>
+                    <div class="blogs-rights">
+                        <h3 class="blog-item-name"><?php echo $row['Post']['name'] ?></h3>
+                    </div>
+                </a>
+            </article>
+            <?php $dem++;
+            if ($dem == 10) break;
+        } ?>
     </div>
-<?php } ?>
+    <!--    <div class="blogs-mores text-center"><a href="tin-tuc" title="Xem thêm">Xem thêm</a></div>-->
+</div>
 
 <div class="bn-adv">
     <?php

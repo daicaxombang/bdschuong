@@ -33,7 +33,7 @@
 		</li>
         <li><a href="<?php echo DOMAINAD ?>danhmucs" class="nav-top-item no-submenu <?php echo $this->Common->menu_current('danhmucs');?>">
         Sắp xếp menu</a></li>
-        <li>
+        <li style="display: none;">
 			<a href="#" class="nav-top-item <?php echo $this->Common->menu_current(array('catproducts','products', 'exttmps', 'exttmptwos'));?>">
 			Quản lý sản phẩm
 			</a>
@@ -94,8 +94,8 @@
 		</li>
         <li><a href="<?php echo DOMAINAD?>banners" class="nav-top-item no-submenu <?php echo $this->Common->menu_current('banners');?>">
         Banner</a></li>
-        <li><a href="<?php echo DOMAINAD?>orders" class="nav-top-item no-submenu <?php echo $this->Common->menu_current('orders');?>">
-        Đơn hàng</a></li>
+<!--        <li><a href="--><?php //echo DOMAINAD?><!--orders" class="nav-top-item no-submenu --><?php //echo $this->Common->menu_current('orders');?><!--">-->
+<!--        Đơn hàng</a></li>-->
         <!--<li><a href="<?php echo DOMAINAD?>logos" class="nav-top-item no-submenu <?php echo $this->Common->menu_current('logos');?>">
         Logo</a></li>-->
         <li><a href="<?php echo DOMAINAD?>emaildks" class="nav-top-item no-submenu <?php echo $this->Common->menu_current('emaildks');?>">

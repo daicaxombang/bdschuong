@@ -15,45 +15,43 @@
             <div class="span12">
                 <div class="section_product clearfix">
                     <div class="section-head clearfix">
-                        <h2 class="title_blog">Sản phẩm nổi bật</h2>
+                        <h2 class="title_blog">DỰ ÁN BẤT ĐỘNG SẢN ĐANG PHÂN PHỐI</h2>
                     </div>
                     <div class="b-content-news">
                         <?php
-                        $num_page = ceil(count($list_productnb) / 3);
+                        $num_page = ceil(count($list_post) / 3);
                         for ($i = 0;
                              $i < $num_page;
                              $i++) {
                             $dem = 0;
                             echo '<div class="row-fluid">';
-                            foreach ($list_productnb
-
-                                     as $k => $row) { ?>
+                            foreach ($list_post as $k => $row) { ?>
                                 <div class="span4">
                                     <div class="b-item-new">
                                         <div class="b-img">
-                                            <a href="<?php echo DOMAIN . $row['Product']['link']; ?>.html"
-                                               title="<?php echo $row['Product']['name'] ?>">
+                                            <a href="<?php echo DOMAIN . $row['Post']['link']; ?>.html"
+                                               title="<?php echo $row['Post']['name'] ?>">
                                                 <img class="img-responsive center-block lazy loaded"
-                                                     src="<?php echo DOMAIN; ?>img/w350/h290/fill!<?php echo $row['Product']['images'] ?>"
-                                                     title="<?php echo $row['Product']['name'] ?>"
-                                                     alt="<?php echo $row['Product']['name'] ?>">
+                                                     src="<?php echo DOMAIN; ?>img/w350/h290/fill!<?php echo $row['Post']['images'] ?>"
+                                                     title="<?php echo $row['Post']['name'] ?>"
+                                                     alt="<?php echo $row['Post']['name'] ?>">
                                             </a>
                                         </div>
                                         <div class="b-name">
                                             <h3>
-                                                <a href="<?php echo DOMAIN . $row['Product']['link']; ?>.html"
-                                                   title="<?php echo $row['Product']['name'] ?>">
-                                                    <?php echo $row['Product']['name'] ?>
+                                                <a href="<?php echo DOMAIN . $row['Post']['link']; ?>.html"
+                                                   title="<?php echo $row['Post']['name'] ?>">
+                                                    <?php echo $row['Post']['name'] ?>
                                                 </a>
                                             </h3>
                                         </div>
                                         <div class="b-status">
-                                            ĐANG PHÂN PHỐI
+                                            <?php echo !empty($row['Post']['is_service']) ? "SẮP MỞ BÁN" : "ĐANG PHÂN PHỐI";?>
                                         </div>
                                     </div>
                                 </div>
                                 <?php $dem++;
-                                unset($list_productnb[$k]);
+                                unset($list_post[$k]);
                                 if ($dem == 3) break;
                             }
                             echo '</div>';

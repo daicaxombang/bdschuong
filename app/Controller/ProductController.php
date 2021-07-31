@@ -18,7 +18,7 @@ class ProductController extends AppController {
     public function beforeFilter() {
         parent::beforeFilter();
         //echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script language="javascript"> alert("Website đang trong quá trình nâng cấp, mời bạn quay trở lại sau !"); window.location.replace("'.DOMAIN.'"); </script>';
-        $this->layout = 'extent';
+        //$this->layout = 'extent';
     }
 
     public function index($id = null){
@@ -62,7 +62,7 @@ class ProductController extends AppController {
         }
 
         if(in_array($detailNews['Catproduct']['type'], array('new', 'newtwo'))){
-            $this->layout = 'extent';
+            //$this->layout = 'extent';
             $this->paginate = array(
                 'conditions'=>array(
                     $table.'.status'=>1,
@@ -257,7 +257,7 @@ class ProductController extends AppController {
     }
 
     public function detailnew($id = null){
-        $this->layout = 'extent';
+        //$this->layout = 'extent';
         if(empty($id)) $this->redirect(DOMAIN.'err-page');
         $detailNews = $this->Post->findByLink($id);
         if(empty($detailNews)) $this->redirect(DOMAIN.'err-page');

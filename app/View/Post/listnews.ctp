@@ -20,16 +20,16 @@
             ?>
                 <div class="box-run-new">
                     <div class="position-relative box-img-new">
-                        <a href="<?php echo DOMAIN.$value['Post']['link'];?>.htm" title="<?php echo $value['Post']['name'];?>">
+                        <a href="<?php echo DOMAIN.$value['Post']['link'];?>.html" title="<?php echo $value['Post']['name'];?>">
                             <img src="<?php echo DOMAIN;?>img/w220/fill!<?php echo $value['Post']['images'];?>" title="<?php echo $value['Post']['name'];?>" alt="<?php echo $value['Post']['name'];?>"/>
                         </a>
                     </div><!--end box-img-new-->
-                    <a href="<?php echo DOMAIN.$value['Post']['link'];?>.htm" title="<?php echo $value['Post']['name'];?>">
+                    <a href="<?php echo DOMAIN.$value['Post']['link'];?>.html" title="<?php echo $value['Post']['name'];?>">
                         <h3><?php echo $value['Post']['name'];?></h3>
                     </a>
                     <div class="shortdes-new"><?php echo shortDesc($value['Post']['shortdes'], 300);?></div>
                     <div class="xemchitiet">
-                        <a href="<?php echo DOMAIN.$value['Post']['link'];?>.htm" title="<?php echo $value['Post']['name'];?>">
+                        <a href="<?php echo DOMAIN.$value['Post']['link'];?>.html" title="<?php echo $value['Post']['name'];?>">
                             Xem chi tiết.
                         </a>    
                     </div>

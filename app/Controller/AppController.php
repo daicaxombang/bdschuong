@@ -72,6 +72,16 @@ class AppController extends Controller
         $this->loadModel('Support');
         $this->loadModel('Post');
 
+        $list_post_right = $this->Post->find('all', array(
+            'conditions' => array(
+                'Post.status' => 1,
+                'Post.choose2' => 1
+            ),
+            'order' => array('Post.order' => 'DESC'),
+            'limit' => 5
+        ));
+        $this->set('list_post_right', $list_post_right);
+
         //load sp xem nhieu
 //        $this->loadModel('Product');
 //        $list_spxemnhieu = $this->Product->find('all', array(
@@ -157,39 +167,39 @@ class AppController extends Controller
         ));
         $this->set('banner', $banner);
 
-        $listcatcn = $this->Catproduct->find('all', array(
-            'conditions' => array(
-                'Catproduct.status' => 1,
-                'Catproduct.id' => 7,
-            ),
-            'fields' => array('id', 'name', 'link'),
-            'order' => array('Catproduct.order' => 'ASC')
-        ));
-        $listincn = array();
-        foreach ($listcatcn as $value) {
-            //load new
-            $cat_id = $this->multiMenuProduct($value['Catproduct']['id'], null);
-            $cat_id[$value['Catproduct']['id']] = $value['Catproduct']['id'];
-            $table = 'Post';
-            $list = $this->$table->find('all', array(
-                'conditions' => array(
-                    $table . '.status' => 1,
-//                    $table . '.choose1' => 1,
-                    $table . '.cat_id' => $cat_id
-                ),
-                'order' => array($table . '.order' => 'DESC'),
-                'limit' => 20
-            ));
-
-            //gop ten cha + noi dung
-            $listincn[] = array(
-                'id' => $value['Catproduct']['id'],
-                'name' => $value['Catproduct']['name'],
-                'link' => $value['Catproduct']['link'],
-                'list' => $list,
-            );
-        }
-        $this->set('listincn', $listincn);
+//        $listcatcn = $this->Catproduct->find('all', array(
+//            'conditions' => array(
+//                'Catproduct.status' => 1,
+//                'Catproduct.id' => 7,
+//            ),
+//            'fields' => array('id', 'name', 'link'),
+//            'order' => array('Catproduct.order' => 'ASC')
+//        ));
+//        $listincn = array();
+//        foreach ($listcatcn as $value) {
+//            //load new
+//            $cat_id = $this->multiMenuProduct($value['Catproduct']['id'], null);
+//            $cat_id[$value['Catproduct']['id']] = $value['Catproduct']['id'];
+//            $table = 'Post';
+//            $list = $this->$table->find('all', array(
+//                'conditions' => array(
+//                    $table . '.status' => 1,
+////                    $table . '.choose1' => 1,
+//                    $table . '.cat_id' => $cat_id
+//                ),
+//                'order' => array($table . '.order' => 'DESC'),
+//                'limit' => 20
+//            ));
+//
+//            //gop ten cha + noi dung
+//            $listincn[] = array(
+//                'id' => $value['Catproduct']['id'],
+//                'name' => $value['Catproduct']['name'],
+//                'link' => $value['Catproduct']['link'],
+//                'list' => $list,
+//            );
+//        }
+//        $this->set('listincn', $listincn);
 
         /*$chaytrai = $this->Extention->find('first', array(
             'conditions' => array(
@@ -275,7 +285,7 @@ class AppController extends Controller
                     'Catproduct.id <>' => 7,
 //                'Catproduct.type' => array('new', ''),
                 ),
-                'order' => 'Catproduct.order DESC'
+                'order' => 'Catproduct.order ASC'
             ));
         } else {
             $parmenu = $this->Catproduct->find('all', array(

@@ -65,7 +65,7 @@
     //Router::connect('/san-pham-moi', array('controller' => 'Product', 'action' => 'spouter', 'spmoi'));
     
     Router::connect('/hang/*', array('controller' => 'Product', 'action' => 'hang'));
-    Router::connect('/:alias.html', array('controller' => 'Product', 'action' => 'detail'), array('pass' => array('id', 'alias')));
+    Router::connect('/:alias.html', array('controller' => 'Product', 'action' => 'detailnew'), array('pass' => array('id', 'alias')));
     Router::connect('/page/*', array('controller' => 'Product', 'action' => 'detail'));
     Router::connect('/:alias.htm', array('controller' => 'Product', 'action' => 'detailnew'), array('pass' => array('id', 'alias')));
     Router::connect('/:alias', array('controller' => 'Product', 'action' => 'index'), array('pass' => array('id', 'alias')));

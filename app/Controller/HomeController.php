@@ -32,86 +32,86 @@ class HomeController extends AppController {
         $this->Session->write('active_menu', '1');
 
         //load mn ft
-        $list_productnb = $this->Product->find('all', array(
+        $list_post = $this->Post->find('all', array(
             'conditions' => array(
-                'Product.status' => 1,
-                'Product.choose1' => 1
+                'Post.status' => 1,
+                'Post.choose1' => 1
             ),
-            'order' => array('Product.order' => 'DESC'),
-            'limit' => 4
+            'order' => array('Post.order' => 'DESC'),
+            'limit' => 30
         ));
-        $this->set('list_productnb', $list_productnb);
+        $this->set('list_post', $list_post);
 
-        $list_cat = $this->Catproduct->find('all', array(
-            'conditions' => array(
-                'Catproduct.status' => 1,
-                'Catproduct.type' => 'product',
-                'Catproduct.home' => 1,
-            ),
-            'fields' => array('id', 'name', 'link'),
-            'order' => array('Catproduct.order' => 'ASC')
-        ));
-        $listproduct = array();
-        foreach ($list_cat as $value) {
-            //load new
-            $cat_id = $this->multiMenuProduct($value['Catproduct']['id'], null);
-            $cat_id[$value['Catproduct']['id']] = $value['Catproduct']['id'];
-            $table = 'Product';
-            $list = $this->$table->find('all', array(
-                'conditions' => array(
-                    $table . '.status' => 1,
-//                    $table . '.choose1' => 1,
-                    $table . '.cat_id' => $cat_id
-                ),
-                'order' => array($table . '.order' => 'DESC'),
-                'limit' => 12
-            ));
+//        $list_cat = $this->Catproduct->find('all', array(
+//            'conditions' => array(
+//                'Catproduct.status' => 1,
+//                'Catproduct.type' => 'product',
+//                'Catproduct.home' => 1,
+//            ),
+//            'fields' => array('id', 'name', 'link'),
+//            'order' => array('Catproduct.order' => 'ASC')
+//        ));
+//        $listproduct = array();
+//        foreach ($list_cat as $value) {
+//            //load new
+//            $cat_id = $this->multiMenuProduct($value['Catproduct']['id'], null);
+//            $cat_id[$value['Catproduct']['id']] = $value['Catproduct']['id'];
+//            $table = 'Product';
+//            $list = $this->$table->find('all', array(
+//                'conditions' => array(
+//                    $table . '.status' => 1,
+////                    $table . '.choose1' => 1,
+//                    $table . '.cat_id' => $cat_id
+//                ),
+//                'order' => array($table . '.order' => 'DESC'),
+//                'limit' => 12
+//            ));
+//
+//            //gop ten cha + noi dung
+//            $listproduct[] = array(
+//                'id' => $value['Catproduct']['id'],
+//                'name' => $value['Catproduct']['name'],
+//                'link' => $value['Catproduct']['link'],
+//                'list' => $list,
+//            );
+//        }
+//        $this->set('listproduct', $listproduct);
 
-            //gop ten cha + noi dung
-            $listproduct[] = array(
-                'id' => $value['Catproduct']['id'],
-                'name' => $value['Catproduct']['name'],
-                'link' => $value['Catproduct']['link'],
-                'list' => $list,
-            );
-        }
-        $this->set('listproduct', $listproduct);
 
 
-
-        $listcattt = $this->Catproduct->find('all', array(
-            'conditions' => array(
-                'Catproduct.status' => 1,
-                'Catproduct.id' => 4,
-            ),
-            'fields' => array('id', 'name', 'link'),
-            'order' => array('Catproduct.order' => 'ASC')
-        ));
-        $listintt = array();
-        foreach ($listcattt as $value) {
-            //load new
-            $cat_id = $this->multiMenuProduct($value['Catproduct']['id'], null);
-            $cat_id[$value['Catproduct']['id']] = $value['Catproduct']['id'];
-            $table = 'Post';
-            $list = $this->$table->find('all', array(
-                'conditions' => array(
-                    $table . '.status' => 1,
-//                    $table . '.choose1' => 1,
-                    $table . '.cat_id' => $cat_id
-                ),
-                'order' => array($table . '.order' => 'DESC'),
-                'limit' => 4
-            ));
-
-            //gop ten cha + noi dung
-            $listintt[] = array(
-                'id' => $value['Catproduct']['id'],
-                'name' => $value['Catproduct']['name'],
-                'link' => $value['Catproduct']['link'],
-                'list' => $list,
-            );
-        }
-        $this->set('listintt', $listintt);
+//        $listcattt = $this->Catproduct->find('all', array(
+//            'conditions' => array(
+//                'Catproduct.status' => 1,
+//                'Catproduct.id' => 4,
+//            ),
+//            'fields' => array('id', 'name', 'link'),
+//            'order' => array('Catproduct.order' => 'ASC')
+//        ));
+//        $listintt = array();
+//        foreach ($listcattt as $value) {
+//            //load new
+//            $cat_id = $this->multiMenuProduct($value['Catproduct']['id'], null);
+//            $cat_id[$value['Catproduct']['id']] = $value['Catproduct']['id'];
+//            $table = 'Post';
+//            $list = $this->$table->find('all', array(
+//                'conditions' => array(
+//                    $table . '.status' => 1,
+////                    $table . '.choose1' => 1,
+//                    $table . '.cat_id' => $cat_id
+//                ),
+//                'order' => array($table . '.order' => 'DESC'),
+//                'limit' => 4
+//            ));
+//
+//            //gop ten cha + noi dung
+//            $listintt[] = array(
+//                'id' => $value['Catproduct']['id'],
+//                'name' => $value['Catproduct']['name'],
+//                'link' => $value['Catproduct']['link'],
+//                'list' => $list,
+//            );
+//        }
+//        $this->set('listintt', $listintt);
 
     }
 

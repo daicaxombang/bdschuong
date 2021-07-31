@@ -1,4 +1,4 @@
-<script>
+    <script>
     function confirmDeleteSelected(){
         if($('#option').val()=='delete'){
             if (confirm('Bạn có chắc chắn muốn xóa các mục đã chọn không?')){
@@ -61,10 +61,10 @@
                             <th style="width: 15%;">Tiêu đề</th>
                             <th>Nhóm</th>
                             <th>Thứ tự</th>
-                            <!--<th>Tin tức home</th>
-                            <th>Dịch vụ home</th>
+                            <th>Dự án trang chủ</th>
+                            <th>Tin tức phải</th>
 
-                            <th>Mới<br/>trong ngày</th>
+                            <!--<th>Mới<br/>trong ngày</th>
                             <th>Sự kiện<br/>hot</th>
                             <th>Tiêu đề</th>       -->            
                             <th>Cập nhật</th>
@@ -87,7 +87,7 @@
                         <td><a href="<?php echo DOMAINAD.strtolower(basename(dirname(__FILE__)));?>/edit/<?php echo $value['Post']['id']; ?>" title="Edit"><?php echo $value['Post']['name']; ?></a>  <?php if(date('Y-m-d', strtotime($value['Post']['modified'])) == date('Y-m-d')) { ?><img src="<?php echo DOMAINAD ?>img/lotus/icons/iconnew.gif" alt="New" /><?php } ?></td>
                         <td><?php echo $value['Catproduct']['name']; ?></a></td>
                         <td><input name="order[<?php echo $value['Post']['id'];?>]" type="number" value="<?php echo $value['Post']['order'];?>" class="text-input" style="width: 44px;" /></td>
-                        <!--<td>
+                        <td>
                             <?php if ($value['Post']['choose1'] == 0) {?>
                                 <a href="<?php echo DOMAINAD.strtolower(basename(dirname(__FILE__)));?>/active/<?php echo $value['Post']['id']; ?>/choose1" title="Kích hoạt" class="icon-5 info-tooltip"><img src="<?php echo DOMAINAD ?>img/lotus/icons/cross_circle.png" alt="Kích hoạt" /></a>
                             <?php } else {?>
@@ -101,7 +101,7 @@
                                 <a href="<?php echo DOMAINAD.strtolower(basename(dirname(__FILE__)));?>/close/<?php echo $value['Post']['id']; ?>/choose2" title="Đóng" class="icon-4 info-tooltip"><img src="<?php echo DOMAINAD ?>img/lotus/icons/tick_circle.png" alt="Ngắt kích hoạt" /></a>
                             <?php }?>
                         </td>
-                        <td>
+                        <!--<td>
                             <?php if ($value['Post']['choose3'] == 0) {?>
                                 <a href="<?php echo DOMAINAD.strtolower(basename(dirname(__FILE__)));?>/active/<?php echo $value['Post']['id']; ?>/choose3" title="Kích hoạt" class="icon-5 info-tooltip"><img src="<?php echo DOMAINAD ?>img/lotus/icons/cross_circle.png" alt="Kích hoạt" /></a>
                             <?php } else {?>

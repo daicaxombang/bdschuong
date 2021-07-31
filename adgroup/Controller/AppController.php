@@ -95,7 +95,7 @@ class AppController extends Controller
         parent::beforeFilter();
         date_default_timezone_set('Asia/Ho_Chi_Minh');
         lotus_controller($this);
-        $this->cat_nodel = array('1', '4', '6', '7');
+        $this->cat_nodel = array('1', '3', '7');
     }
 
     public function replacekytu($id = null)
